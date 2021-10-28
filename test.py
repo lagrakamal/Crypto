@@ -1,7 +1,7 @@
 import crypto as c
 
-h = s.H()
-g = s.G()
+h = c.H()
+g = c.G()
 print(h.add_mod(2,3,6))
 
 print(g.pow_mod(2,3,10))
