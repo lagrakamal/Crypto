@@ -10,7 +10,7 @@ print(c.factors(8))
 
 print(c.ggt(8,12))
 
-print(c.ggt_phi(c.ggt(8,12)))
+print(c.ggt_phi(6))
 
 print(g.order(9))
 
