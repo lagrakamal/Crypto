@@ -53,6 +53,12 @@ def factors(n):
         factors.append(n)
     return factors
 
+def phi_factors(n):
+    phi = n
+    for factor in factors(n):
+        phi -= phi // factor
+    return phi
+
 
 class H:
 
